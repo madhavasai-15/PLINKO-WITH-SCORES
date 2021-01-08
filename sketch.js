@@ -43,7 +43,7 @@ function setup() {
 
 function draw() {
   background("black");
-  textSize(20)
+  textSize(20);
   text("Score : "+ score,20,30);
   Engine.update(engine);
   
@@ -77,6 +77,7 @@ function draw() {
     text("Game Over", 200, 240);
   }
   
+  textSize(20);
   text("500", 20, 530);
   text("500", 100, 530);
   text("500", 180, 530);
